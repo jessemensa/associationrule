@@ -1,0 +1,18 @@
+Association rule analysis => technique used to uncover how items are associated with each other. 
+Two Algorithms => Apriori and Eclat. 
+
+Apriori Algorithm => 3 parts(support, confidence and lift). 
+Support => how popular an itemset is, measured by porportion of transaction in which that 
+specific itemset appears. 
+
+Confidence => likelihood of lets say item Y being purchased when item X is purchased expressed as 
+X->Y. measured by porportion of transactions with burger in which coke also appears. 
+ie Coke and burger. 
+
+Lift => how likely item Y is purchased when item X is purchased while controlling for 
+how popular item Y is. Lift value of greater than 1 means coke is likely to be bought if 
+burger is bought and less than 1 means coke is unlikely to be bought if burger is bought. 
+
+
+Eclat => similar to apriori and works on smaller datasets. Apriori is slower than eclat. 
+Eclat only needs support 
